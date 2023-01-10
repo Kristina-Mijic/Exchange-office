@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+};
+
+body {
+  background-color: #e6e7ec;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.exchange-section-wrapper {
+  background-color: #f4f4f4;
+  height: 400px;
+  width: 350px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 0 15px #999;
+  -moz-box-shadow: 0 0 15px #999;
+  box-shadow: 0 0 15px #999;
+
+  .exchange-title {
+    background-color: #FF7B54;
+    font-size: 30px;
+    color: #fff;
+    padding: 20px;
+  }
+
+  .currency-wrap {
+    font-size: 20px;
+    padding: 20px 40px;
+
+    .currency-input {
+      border: none;
+      border-bottom: 2px solid black;
+      margin-right: 10px;
+      background: transparent;
+      outline: none;
+      font-size: 18px;
+    }
+  }
+
+  .currency-wrap .currency-select {
+    padding: 8px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border: 1px solid #FF7B54;
+
+    &:hover {
+      background-color: #FF7B54;
+      color: #fff;
+    }
+  }
+
+  .rotate-btn {
+    background-color: #FF7B54;
+    padding: 15px;
+    display: inline-block;
+    border-radius: 50%;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 140px;
+  }
+
+  .rate-text {
+    color: gray;
+    margin: 30px 100px;
+  }
+}
