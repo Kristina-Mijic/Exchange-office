@@ -17,22 +17,26 @@ body {
 .exchange-section-wrapper {
   background-color: #f4f4f4;
   height: 400px;
-  width: 350px;
+  width: 450px;
   border-radius: 15px;
   -webkit-box-shadow: 0 0 15px #999;
   -moz-box-shadow: 0 0 15px #999;
   box-shadow: 0 0 15px #999;
+  position: absolute;
 
   .exchange-title {
     background-color: #FF7B54;
-    font-size: 30px;
+    font-size: 40px;
     color: #fff;
     padding: 20px;
   }
 
   .currency-wrap {
     font-size: 20px;
-    padding: 20px 40px;
+    padding: 40px 30px 10px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
     .currency-input {
       border: none;
@@ -57,15 +61,17 @@ body {
     }
   }
 
-  .rotate-btn {
+  .convert-btn {
     background-color: #FF7B54;
     padding: 15px;
     display: inline-block;
-    border-radius: 50%;
+    border-radius: 15px;
     color: white;
     font-size: 16px;
     cursor: pointer;
-    margin: 0 140px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
   }
 
   .rate-text {

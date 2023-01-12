@@ -12,25 +12,23 @@
   <section class="exchange-section-wrapper">
     <h2 class="exchange-title">Exchange Rate Calculate</h2>
 
-    <div class="currency-wrap" id="currency-from">
-      <input class="currency-input" type="number" id="" placeholder="0"/>
-      <select class="currency-select" name="" id="">
-        <option value="">EUR</option>
+    <div class="currency-wrap" >
+      <input class="currency-input" type="number"  id="from-amount" placeholder="0"/>
+      <p>FROM:</p>
+      <select class="currency-select" name="" id="from-currency">
       </select>
     </div>
 
-    <div class="currency-wrap" id="currency-to">
-      <input class="currency-input" type="number" id="" placeholder="0"/>
-      <select class="currency-select" name="" id="">
-        <option value="">EUR</option>
+    <div class="currency-wrap">
+      <input class="currency-input" type="number" id="to-amount" placeholder="0"/>
+      <p>TO:</p>
+      <select class="currency-select" name="" id="to-currency">
       </select>
     </div>
 
-    <div class="rotate-btn" id="rotate-btn">
-      <i class="fa-solid fa-rotate"></i>
+    <div class="convert-btn" id="convert-btn">
+      <p>Convert</p>
     </div>
-
-    <p class="rate-text" id="rate-text"></p>
   </section>
 
   <script src="main.js"></script>
